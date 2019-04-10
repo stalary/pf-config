@@ -2,7 +2,7 @@ spring:
   data:
     elasticsearch:
       cluster-nodes: localhost:9300
-      cluster-name: docker-cluster
+      cluster-name: docker-cluster # 使用docker启动的默认集群名称
       properties:
         transport:
           tcp:

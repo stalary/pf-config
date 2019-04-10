@@ -1,0 +1,2 @@
+pf: 
+  authArray: /message/user/get, /message/user/send, /recruit/hr, /recruit/resume, /outside/avatar, /recruit/recommend/candidate, /recruit/recommend/job

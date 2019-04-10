@@ -1,0 +1,36 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: push
+        uri: lb://pf-push
+        predicates:
+        - Path=/push/**
+      - id: ws
+        uri: lb://pf-push
+        predicates:
+        - Path=/push/**
+      - id: outside
+        uri: lb://pf-outside
+        predicates:
+        - Path=/outside/**
+      - id: message
+        uri: lb://pf-message
+        predicates:
+        - Path=/message/**
+      - id: user
+        uri: lb://pf-user
+        predicates:
+        - Path=/user/**
+      - id: recruit
+        uri: lb://pf-recruit
+        predicates:
+        - Path=/recruit/**
+      - id: company
+        uri: lb://pf-recruit
+        predicates:
+        - Path=/company/**
+      - id: resume
+        uri: lb://pf-resume
+        predicates:
+        - Path=/resume/**

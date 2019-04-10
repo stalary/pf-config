@@ -5,4 +5,4 @@ com:
       order: true
       group: master
       auto: true
-      url: http://lightmq.stalary.com
+      url: http://lightmq.stalary.com # 建议自行部署一个lightmq，https://github.com/stalary/lightMQ
