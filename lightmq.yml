@@ -1,0 +1,8 @@
+com:
+  stalary:
+    lightmq:
+      consumer: true
+      order: true
+      group: master
+      auto: true
+      url: http://lightmq.stalary.com

@@ -1,0 +1,9 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+      cluster-name: docker-cluster
+      properties:
+        transport:
+          tcp:
+            connect_timeout: 2s
